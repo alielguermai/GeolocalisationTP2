@@ -81,8 +81,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         } else {
             LatLng def = new LatLng(31, -1);
             mMap.addMarker(new MarkerOptions().position(def).title("Position initial"));
-            mMap.moveCamera(CameraUpdateFactory.newLatLng(def)); } }
-
-   
-   
+            mMap.moveCamera(CameraUpdateFactory.newLatLng(def)); }
+    }
 }
